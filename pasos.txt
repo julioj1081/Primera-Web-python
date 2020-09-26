@@ -1,0 +1,31 @@
+primero tenemos que instalar el python y instalar el Flask por
+medio de la consola
+
+la carpeta static son archivos que usaremos en otros archivos como 
+la hoja de estilo
+
+la carpeta templates iran las hojas html y index.py se encargar de renderizar
+el servidor y las hojas html con el comando 
+
+cd src 
+C:\Users\julio\Desktop\web-python\src>python index.py
+
+
+creamos un layout este sera la hoja que se compartira con 
+otros htmls como un navbar 
+
+static 
+    css
+        main.css
+
+templates
+    hojas htmls
+
+index.py
+
+
+TODO ESTO IRA DENTRO DE UNA CARPETA SRC para crear un entorno virtual
+para eso necesitamos instalar el pip install virtualenv y guardar todo en una carpeta src
+una ves hecho esto escribimos esto y se creara una carpeta 41:40
+
+C:\Users\julio\Desktop\web-python>python -m venv venv
